@@ -1,21 +1,18 @@
 # Building and Installing VisionEval
 
-`VE-Installer` is a build system that makes a VisionEval Githb source tree "installable", and that
-facilitates development and testing of VisionEval.
-
+`VE-Installer` is now obsolete unless you want to go back to VisionEval 1.0.1 (Trust us: you don't).
+If you clone either VisionEval or VisionEval-dev, you can just source "build/VisionEval-dev.R" or
+start the VisionEval-dev.Rproj in RStudio, then run the command `ve.build()`.  See build/Building.md
+in either of those repositories for details.
 <hr/>
 
-# Critical Update June, 2020
+# Critical Update January, 2021
 
-## Winter is Coming!
-### (for the old ways of installing and hacking VisionEval)
+VE-Installer is now obsolete. The repository has been renamed to indicate that. Building from the full source is often not
+required
 
-As of the June 2020 release of VisionEval, the only supported way to build a running instance of VisionEval from the
-Github canonical source code is with VE-Installer. Other methods for turning the VisionEval source code tree into a
-runtime environment are deprecated and will fail to work with the next release.
-
-However, all is not lost! We have also introduced a new optional binary download of the "almost-built" VisionEval source
-packages to accompany the VisionEval runtime installer. If you install those packages (creating a "src" directory within
+We have also introduced a new optional binary download of the "almost-built" VisionEval source packages to accompany the
+VisionEval runtime installer. If you install those packages (creating a "src" directory within
 your runtime) you have full access to the VisionEval package source code in a form that will allow you to inspect, step
 through, debug, and rebuild the binary packages in your installation.
 
